@@ -1,0 +1,26 @@
+body{
+    background: white;
+    font-family: monospace ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    /* width: 200px; */
+    padding: 7px 30px;
+    text-align: center;
+    border: 3px solid black;
+    position: absolute;
+    top: 20px;
+    font-family: 'Bungee Shade', cursive;;
+    box-shadow: 11px 11px 0 black;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 4px;
+
+}
+
+
+
