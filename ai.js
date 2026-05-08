@@ -17,10 +17,11 @@ themebtn.addEventListener("click", () => {
 
 function parseInput(input){
     return input
-        replace(/what is/g, "")
+        .replace(/what is/g, "")
         .replace(/calculate/g, "")
         .replace(/how much is/g, "")
         .replace(/please/g, "")
+
         .replace(/plus/g, "+")
         .replace(/minus/g, "-")
 
@@ -28,7 +29,6 @@ function parseInput(input){
         .replace(/times/g, "*")
 
         .replace(/divided by/g, "/")
-
 
         .replace(/percent of/g, "*0.01*")
 

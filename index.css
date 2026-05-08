@@ -177,3 +177,12 @@ button:active{
     color:white;
     box-shadow: 4px 4px 0 white ;
 }
+ #examples{
+    font-size: 1.2rem;
+    color: gray;
+    margin-top: 20px;
+
+ }
+ .dark #examples{
+    color: lightgray;
+ }
