@@ -105,6 +105,10 @@ button:active{
     color: white;
     box-shadow: 4px 4px 0 white;
 }
+.dark button:active{
+    transform:translate(4px,4px) ;
+    box-shadow:none ;
+}
 .dark #theme {
     border-color: white;
     box-shadow: 4px 4px 0 white;
@@ -125,6 +129,7 @@ button:active{
     
 }
 
+
 @media (max-width: 600px){
 
     
@@ -135,4 +140,40 @@ button:active{
     body{
         justify-content: flex-start;
     }
+}
+
+
+#ai-input,
+#result{
+    border:4px solid black;
+    padding: 15px;
+    font-size: 1.3rem;
+    width:100% ;
+    margin-bottom: 30px ;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 0 black ;
+
+
+}
+#ask{
+    width:100% ;
+    border: 3px solid black;
+    margin-top: 30px;
+    font-size:1.9rem ;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#ask:active{
+    transform:translate(4px,4px) ;
+    box-shadow:none ;
+
+}
+
+
+.dark #ai-input,.dark #result{
+    border-color:white;
+    background:black ;
+    color:white;
+    box-shadow: 4px 4px 0 white ;
 }
