@@ -29,6 +29,8 @@ function parseInput(input){
         .replace(/times/g, "*")
 
         .replace(/divided by/g, "/")
+        .replace(/divide by/g, "/")
+        .replace(/divide/g, "/")
 
         .replace(/percent of/g, "*0.01*")
 
